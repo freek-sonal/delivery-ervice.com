@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>homepage</title>
+    </head>
+    <body>
+        <h1>Welcome to category page</h1>
+        <ul>
+            {% for cat in category_list %}
+            <h2><li><a href="/restaurants"> {{cat.category}} </a></li></h2>
+            <p></p>
+            {% endfor %}
+        </ul>
+
+    </body>
+</html>
